@@ -1,0 +1,17 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Authentication": {
+    "Bucket": "fifteen-docker",
+    "Key": "index.docker.io/.dockercfg"
+  },
+  "Image": {
+    "Name": "simonfrid/fifteen",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "80"
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
